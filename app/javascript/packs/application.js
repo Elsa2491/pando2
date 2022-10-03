@@ -18,3 +18,18 @@ require("channels")
 
 import "controllers"
 import "bootstrap"
+import Chart from 'chart.js/auto';
+
+
+document.addEventListener('turbolinks:load', () => {
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: JSON.parse(ctx.canvas.dataset.labels),
+    datasets: [{
+      data: JSON.parse(ctx.canvas.dataset.data),
+    }]
+  },
+  });
+})
