@@ -1,9 +1,9 @@
 # PANDO2
-## Table of contents
-* [What is this project?](#what-is-this-project?)
 
 ## What is this project?
 The goal of this project is to display air quality sensor measurements from csv files.
+<br>
+<br>
 ## Installation
 To install this application from GitHub, you just have to clone the repo and do a bundle install
 ```
