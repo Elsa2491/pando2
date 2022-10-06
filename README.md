@@ -9,7 +9,11 @@ To install this application from GitHub, you just have to clone the repo
 ```
   $ git clone https://github.com/Elsa2491/pando2.git
 ```
-And run ```bundle```
+Run ```bundle```
 ```
   $ bundle install
+```
+Launch rails
+```
+  $ rails s
 ```
