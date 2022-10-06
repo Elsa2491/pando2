@@ -4,6 +4,14 @@ class MeasuresController < ApplicationController
     @measure_room_8f = CSV.parse(File.read("./public/room_8f.csv"), headers: true)
     @measure_room_b2 = CSV.parse(File.read("./public/room_b2.csv"), headers: true)
 
+    room_8a
+    room_8f
+    room_b2
+  end
+
+  protected
+
+  def room_8a
     i = 0
     @data_keys_room_8a = []
     @data_co2_room_8a  = []
@@ -25,7 +33,9 @@ class MeasuresController < ApplicationController
       end
       i += 1
     end
+  end
 
+  def room_8f
     x = 0
     @data_keys_room_8f = []
     @data_co2_room_8f = []
@@ -47,7 +57,9 @@ class MeasuresController < ApplicationController
       end
       x += 1
     end
+  end
 
+  def room_b2
     y = 0
     @data_keys_room_b2 = []
     @data_co2_room_b2 = []
