@@ -41,7 +41,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(54, 162, 235, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
     {
       type: 'line',
@@ -54,7 +53,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(255, 206, 86, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
      {
       type: 'line',
@@ -67,7 +65,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(75, 192, 192, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
     ],
   },
@@ -102,7 +99,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(54, 162, 235, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
     {
       type: 'line',
@@ -162,7 +158,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(54, 162, 235, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
     {
       type: 'line',
@@ -221,7 +216,6 @@ document.addEventListener('turbolinks:load', () => {
           'rgba(54, 162, 235, 1)',
       ],
       borderWidth: 1,
-      yAxisID: 'y-axis-2'
     },
     {
       type: 'line',
