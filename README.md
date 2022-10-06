@@ -5,11 +5,11 @@ The goal of this project is to display air quality sensor measurements from csv 
 <br>
 <br>
 ## Installation
-To install this application from GitHub, you just have to clone the repo and do a bundle install
+To install this application from GitHub, you just have to clone the repo
 ```
   $ git clone https://github.com/Elsa2491/pando2.git
-
+```
+And run ```bundle```
+```
   $ bundle install
 ```
-
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
